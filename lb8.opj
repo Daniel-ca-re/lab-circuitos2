@@ -39,12 +39,9 @@
     (File ".\lb8-pspicefiles\schematic1\schematic1.net"
       (Type "Report")))
   (Folder "PSpice Resources"
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User))
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
     (Folder "Simulation Profiles"
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\lb8-pspicefiles\schematic1\bias.sim"
@@ -96,14 +93,11 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8.dsn")
+         "c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8.dsn")
       (Path "Design Resources"
-         "C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8.dsn"
+         "c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8.dsn"
          "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8.dsn"
-         "SCHEMATIC1" "pasaBAN"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -113,28 +107,28 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 503")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1608 52 503")
+        (Scroll "-269 10")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\DANIE\DESKTOP\IDE\LAB DE CIR\LAB-CIRCUITOS2\LB8.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "pasaA"))
+      (Page "pasaBA"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 529")
-        (Scroll "-309 0")
+        (Placement "44 2 3 -1 -1 -8 -31 -252 1304 102 553")
+        (Scroll "-229 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\DANIE\DESKTOP\IDE\LAB DE CIR\LAB-CIRCUITOS2\LB8.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "pasaB"))
+      (Page "pasaAL"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 555")
-        (Scroll "-309 0")
+        (Placement "44 0 1 -1 -1 -8 -31 -326 1230 113 564")
+        (Scroll "-269 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\DANIE\DESKTOP\IDE\LAB DE CIR\LAB-CIRCUITOS2\LB8.DSN")

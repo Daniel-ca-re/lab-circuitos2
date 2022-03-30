@@ -1,7 +1,7 @@
+
+**** 03/30/22 11:29:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
-**** 03/29/22 21:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
-
- ** Profile: "SCHEMATIC1-simulacion"  [ C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8-PSpiceFiles\SCHEMATIC1\simulacion.si
+ ** Profile: "SCHEMATIC1-simulacion"  [ c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8-pspicefiles\schematic1\simulacion.si
 
 
  ****     CIRCUIT DESCRIPTION
@@ -31,17 +31,19 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source LB8
-C_C1         0 VOUT1  1m  TC=0,0 
-R_R1         VIN VOUT1  6360k TC=0,0 
-V_V1         VIN 0  AC 0
+C_C1         0 VOUT1  1u  TC=0,0 
+R_R1         VIN VOUT1  1.59k TC=0,0 
+V_V1         VIN 0  AC 1
 +SIN 0 2.5 0 0 0 0
+C_C3         VOUT2 VIN  1n  TC=0,0 
+R_R3         0 VOUT2  1.59k TC=0,0 
 
 **** RESUMING simulacion.cir ****
 .END
 
-**** 03/29/22 21:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/30/22 11:29:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-simulacion"  [ C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8-PSpiceFiles\SCHEMATIC1\simulacion.si
+ ** Profile: "SCHEMATIC1-simulacion"  [ c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8-pspicefiles\schematic1\simulacion.si
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -54,7 +56,7 @@ V_V1         VIN 0  AC 0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  VIN)    0.0000  (VOUT1)    0.0000  
+(  VIN)    0.0000  (VOUT1)    0.0000  (VOUT2)    0.0000  
 
 
 
@@ -67,14 +69,12 @@ V_V1         VIN 0  AC 0
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
 
-WARNING(ORPSIM-15193): No AC sources -- AC Sweep ignored
-
 
           JOB CONCLUDED
 
-**** 03/29/22 21:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/30/22 11:29:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-simulacion"  [ C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8-PSpiceFiles\SCHEMATIC1\simulacion.si
+ ** Profile: "SCHEMATIC1-simulacion"  [ c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8-pspicefiles\schematic1\simulacion.si
 
 
  ****     JOB STATISTICS SUMMARY
@@ -84,5 +84,5 @@ WARNING(ORPSIM-15193): No AC sources -- AC Sweep ignored
 
 
 
-  Total job time (using Solver 1)   =         .22
+  Total job time (using Solver 1)   =         .02
 
