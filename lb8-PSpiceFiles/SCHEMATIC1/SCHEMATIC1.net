@@ -1,0 +1,5 @@
+* source LB8
+C_C1         0 VOUT1  1m  TC=0,0 
+R_R1         VIN VOUT1  6360k TC=0,0 
+V_V1         VIN 0  AC 0
++SIN 0 2.5 0 0 0 0

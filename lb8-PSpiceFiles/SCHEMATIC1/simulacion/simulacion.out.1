@@ -1,0 +1,47 @@
+
+**** 03/29/22 21:51:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-simulacion"  [ C:\Users\danie\Desktop\IDE\lab de cir\lab-circuitos2\lb8-PSpiceFiles\SCHEMATIC1\simulacion.si
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulacion.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\danie\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1 15Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LB8
+C_C1         GND VOUT1  1m  TC=0,0 
+R_R1         VIN VOUT1  6360k TC=0,0 
+V_V1         VIN GND  AC 00
++SIN 0 2.5 0 0 0 0
+
+**** RESUMING simulacion.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node GND is floating
+
+ERROR(ORPSIM-15142): Node VOUT1 is floating
+
+ERROR(ORPSIM-15142): Node VIN is floating
+
