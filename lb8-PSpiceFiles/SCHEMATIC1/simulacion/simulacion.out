@@ -1,5 +1,5 @@
 
-**** 03/30/22 11:29:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/30/22 16:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-simulacion"  [ c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8-pspicefiles\schematic1\simulacion.si
 
@@ -32,16 +32,20 @@
 **** INCLUDING SCHEMATIC1.net ****
 * source LB8
 C_C1         0 VOUT1  1u  TC=0,0 
-R_R1         VIN VOUT1  1.59k TC=0,0 
+R_R1         VIN VOUT1  159.155 TC=0,0 
 V_V1         VIN 0  AC 1
 +SIN 0 2.5 0 0 0 0
-C_C3         VOUT2 VIN  1n  TC=0,0 
-R_R3         0 VOUT2  1.59k TC=0,0 
+C_C3         VOUT2 VIN  1u  TC=0,0 
+R_R3         0 VOUT2  1.59155 TC=0,0 
+R_R4         VIN N15984  1.59155 TC=0,0 
+R_R5         0 VOUT3  159.155 TC=0,0 
+C_C4         N15984 VOUT3  1u  TC=0,0 
+C_C5         0 N15984  1u  TC=0,0 
 
 **** RESUMING simulacion.cir ****
 .END
 
-**** 03/30/22 11:29:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/30/22 16:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-simulacion"  [ c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8-pspicefiles\schematic1\simulacion.si
 
@@ -56,7 +60,9 @@ R_R3         0 VOUT2  1.59k TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  VIN)    0.0000  (VOUT1)    0.0000  (VOUT2)    0.0000  
+(  VIN)    0.0000  (VOUT1)    0.0000  (VOUT2)    0.0000  (VOUT3)    0.0000      
+
+(N15984)    0.0000 
 
 
 
@@ -72,7 +78,7 @@ R_R3         0 VOUT2  1.59k TC=0,0
 
           JOB CONCLUDED
 
-**** 03/30/22 11:29:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/30/22 16:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-simulacion"  [ c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8-pspicefiles\schematic1\simulacion.si
 

@@ -1,7 +1,11 @@
 * source LB8
 C_C1         0 VOUT1  1u  TC=0,0 
-R_R1         VIN VOUT1  1.59k TC=0,0 
+R_R1         VIN VOUT1  159.155 TC=0,0 
 V_V1         VIN 0  AC 1
 +SIN 0 2.5 0 0 0 0
-C_C3         VOUT2 VIN  1n  TC=0,0 
-R_R3         0 VOUT2  1.59k TC=0,0 
+C_C3         VOUT2 VIN  1u  TC=0,0 
+R_R3         0 VOUT2  1.59155 TC=0,0 
+R_R4         VIN N15984  1.59155 TC=0,0 
+R_R5         0 VOUT3  159.155 TC=0,0 
+C_C4         N15984 VOUT3  1u  TC=0,0 
+C_C5         0 N15984  1u  TC=0,0 
