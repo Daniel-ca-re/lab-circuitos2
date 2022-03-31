@@ -100,7 +100,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\danie\desktop\ide\lab de cir\lab-circuitos2\lb8.dsn"
-         "SCHEMATIC1"))
+         "SCHEMATIC1" "pasaBANX"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -111,7 +111,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1608 52 503")
-        (Scroll "0 194")
+        (Scroll "0 14")
         (Zoom "200")
         (Occurrence "/"))
       (Path "C:\USERS\DANIE\DESKTOP\IDE\LAB DE CIR\LAB-CIRCUITOS2\LB8.DSN")
@@ -130,10 +130,20 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 -326 1230 113 564")
+        (Placement "44 0 1 -1 -1 -8 -31 -326 1230 113 564")
         (Scroll "0 126")
         (Zoom "200")
         (Occurrence "/"))
       (Path "C:\USERS\DANIE\DESKTOP\IDE\LAB DE CIR\LAB-CIRCUITOS2\LB8.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "pasaBAN"))))
+      (Page "pasaBAN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 130 1766 130 581")
+        (Scroll "0 228")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\DANIE\DESKTOP\IDE\LAB DE CIR\LAB-CIRCUITOS2\LB8.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "pasaBANX"))))
